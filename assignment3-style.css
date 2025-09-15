@@ -1,0 +1,21 @@
+header, footer {
+                border-style: solid;
+                border-width: 2px;
+                height: 80px;
+                text-align: center;
+                line-height: 80px;
+            }
+            section {
+                border-style: solid;
+                border-width: 2px;
+                height: 150px;
+                text-align: center;
+                line-height: 150px;
+            }
+            main {
+                border-style: solid;
+                border-width: 2px;
+                height: 415px;
+                text-align: center;
+                line-height: 415px;
+            }

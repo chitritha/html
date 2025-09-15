@@ -3,24 +3,34 @@ header, footer {
     border-width: 2px;
     height: 80px;
     text-align: center;
+    Box-sizing: border-box;
 }
 section {
     border-style: solid;
     border-width: 2px;
     height: 150px;
     text-align: center;
+    Box-sizing: border-box;
 }
 .col1 {
     border-style: solid;
     border-width: 2px;
-    width: 50%;
-    height: 415px;
-    text-align: center;   
+    width: 953px;
+    height: 569px;
+    text-align: center;
+    Box-sizing: border-box;
+   
 }
 .col2 {
     border-style: solid;
     border-width: 2px;
-    width: 50%;
-    height: 415px;
-    text-align: center;   
+    width: 953px;
+    height: 569px;
+    text-align: center; 
+    position: absolute;
+    top: 88px;
+    right: 0px;
+    bottom: 0px;
+    left: 959px;
+    Box-sizing: border-box;
 }

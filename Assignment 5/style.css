@@ -1,20 +1,41 @@
+/*header {
+    border: 1px solid blue;
+    background-color: lightblue;
+    color: white;
+    box-sizing: border-box;
+}*/
 ul {
     list-style-type: none;
     margin:0;
     padding:0;
     overflow: hidden;
+    display:inline;
+    
 }
 li {
     display: block;
     float:left;
     text-align: center;
+    font-size: 19px;
     padding:15px;
+    background-color: blue;
+    color: white;
 }
 #searchbar {
     float:right;
     display:inline;
+    height: 45px;
+    width: 400px;
+    font-size: 19px;
+    background-image: url("search-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 40px 40px;
+    padding-left:50px;
+    border:1px solid grey;
+    border-radius: 15px;
 }
-img {
-    height: 10px;
-    width: 10px;
+input {
+
 }
+

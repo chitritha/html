@@ -5,19 +5,60 @@
     color:white;
     background-color: black;
 }
-div {
-    border: 1px solid black;
-    display:inline-block;
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+#ceo, #cro, #cfo {
+
+    background-color: grey;
+    display: inline-block;
     text-align: center;
     width: 33%;
+    height: 500px;
+    position: relative;
+
     
 }
 img {
-    width: 300px;
-    height: 300px;
+    width: 411px;
+    height: 312px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     
 }
 a {
     color:lightblue;
     text-decoration: none;
 }
+.description {
+   
+    position: absolute;
+    top: 356px;
+    left: 130px;
+    background-color: grey !important;
+    height:80px
+}
+
+p, a {
+    background-color: grey !important;
+}
+
+/*#ceo {
+    float: left;
+}
+
+#cro {
+    float: center;
+    /*position: absolute;
+    top: 80px;
+    right: 450px;
+}
+
+#cfo {
+    float: right;
+    /*position: absolute;
+    top: 80px;
+    right: 750px;
+}*/

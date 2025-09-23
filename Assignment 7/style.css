@@ -1,0 +1,18 @@
+main {
+    border: 1px solid red;
+    position:relative;
+    z-index: 1;
+    top:0px;
+    opacity: 0.5;
+}
+
+footer {
+    border: 1px solid blue;
+    background-color: lightblue;
+    height: 323px;
+    width: 100%;
+    position:absolute;
+    z-index: 2;
+    top:500px;
+    left:0px;
+}

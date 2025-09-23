@@ -1,9 +1,16 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
 header {
     border: 1px solid blue;
     background-color: lightblue;
-    color: white;
+    
     box-sizing: border-box;
-    height: 80px;
+    height: 53px;
 }
 ul {
     list-style-type: none;
@@ -20,7 +27,7 @@ li {
     font-size: 19px;
     padding:15px;
     background-color: blue;
-    color: white;
+    border: 1px solid red;
     
 }
 #searchbar {
@@ -38,6 +45,6 @@ li {
     border-radius: 15px;
 }
 input {
-
+    visibility: ;
 }
 

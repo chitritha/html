@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    border: 1px solid black;
+    height: 110px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.container {
+    border: 1px solid red;
+    flex: 1;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    margin: 2px;
+}

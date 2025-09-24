@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: sans-serif;
+}
+
+header {
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+img {
+    width: 20px;
+    height: 20px;
+}
+#title {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.cred {
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+}
+#login {
+    width: 300px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+p {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    margin: 5px;
+}

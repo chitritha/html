@@ -20,10 +20,30 @@ main {
     width: 480px;
     height: 30px;
 }
-
 .saveuid {
     height: 30px;
     padding: 5px;
     color:white;    
 }
-
+#login {
+    margin:5px;
+    background-color: blue;
+    color: white;
+    width:480px;
+    height:40px;
+    border-radius: 25px;
+    font-size: 27px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+#enroll {
+    display: flex;
+    justify-content: right;
+}
+#account {
+    display:block;
+    text-align: center;
+    background-color: darkred;
+}

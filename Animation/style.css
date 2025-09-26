@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    height: 60px;
+}
+button {
+    color: #451400;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+    padding: 8px 12px;
+    height: 40px;
+}
+.options{
+    margin-right:15px;
+    border: 1px solid green;
+    position:relative;
+}
+
+button:hover {
+    color: #451400;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    cursor: pointer;
+    padding: 8px 12px;
+    height: 40px;
+    animation-name: myAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes myAnimation {
+    from {border:none;}
+    to {border-bottom: 2px solid blue;
+    position:absolute;
+    top:0;
+    left: 10px;
+}
+    
+}

@@ -46,8 +46,6 @@
     color: #803000; 
 }
 
-
-
 @keyframes myAnimation {
     from {width: 0px;}
     to {width: 25px;}

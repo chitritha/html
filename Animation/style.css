@@ -11,7 +11,7 @@
     padding: 10px 20px;
     height: 60px;
 }
-button {
+.button {
     color: #451400;
     background: none;
     border: none;
@@ -19,35 +19,37 @@ button {
     font-weight: bold;
     font-family: Verdana, sans-serif;
     cursor: pointer;
-    padding: 8px 12px;
+    padding: 8px 0px;
     height: 40px;
+    position:relative;
 }
 .options{
     margin-right:15px;
-    border: 1px solid green;
-    position:relative;
+    
 }
 
-button:hover {
-    color: #451400;
-    background: none;
-    border: none;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: Verdana, sans-serif;
-    cursor: pointer;
-    padding: 8px 12px;
-    height: 40px;
-    animation-name: myAnimation;
-    animation-duration: 1s;
+.button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0px;
+    border-bottom: 3px solid #803000;
 }
+
+.button:hover::before {
+    animation: myAnimation 0.5s ease forwards;
+}
+
+.button:hover {
+    color: #803000; 
+}
+
+
 
 @keyframes myAnimation {
-    from {border:none;}
-    to {border-bottom: 2px solid blue;
-    position:absolute;
-    top:0;
-    left: 10px;
-}
+    from {width: 0px;}
+    to {width: 25px;}
     
 }

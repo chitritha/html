@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#details {
+    border: 1px solid red;
+    display: flex;
+    width: 33%;
+    height: 100px;
+}

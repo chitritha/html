@@ -1,7 +1,8 @@
 fetch('users.json')
-    .then(response => response.text())
+    .then(response => response.json())
     .then(text => {
-      const users = JSON.parse(text);
+        console.log(text)
+      const users = text;
       const template = document.getElementById('details');
       const parent = template.parentNode;
 
